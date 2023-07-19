@@ -37,3 +37,40 @@ The repository is structured as follows:
 phase1/: Contains the code, Jupyter Notebook (phase1.ipynb), JSON, and .h5 files related to the type prediction phase.
 phase2/: Contains the code, Jupyter Notebooks (phase2_copy_move.ipynb, phase2_splice.ipynb), JSON, and .h5 files related to the mask prediction phase.
 flask_app/: Includes the code for deploying the image manipulation detection visually using Flask, HTML, and CSS.
+
+** Predicted Outputs **
+
+real for a_0001
+
+<img width="960" alt="image" src="https://github.com/Grunt-prog/Image-Manipulation-Detection/assets/86661317/34413e1c-de9c-48e3-a5b3-19e7526872f5">
+
+real for a_0005
+
+<img width="960" alt="image" src="https://github.com/Grunt-prog/Image-Manipulation-Detection/assets/86661317/77491e48-2c43-4388-904d-417b0ccb5688">
+
+Copy-moved for c_0015
+
+<img width="960" alt="image" src="https://github.com/Grunt-prog/Image-Manipulation-Detection/assets/86661317/bc349d42-aba7-4dd0-92dc-94df2e5a19b9">
+
+Copy-moved for c_0023
+
+<img width="960" alt="image" src="https://github.com/Grunt-prog/Image-Manipulation-Detection/assets/86661317/bc349d42-aba7-4dd0-92dc-94df2e5a19b9">
+
+spliced for s_0022
+
+<img width="960" alt="image" src="https://github.com/Grunt-prog/Image-Manipulation-Detection/assets/86661317/4de9cae5-e034-42fd-89f8-522aa64f2112">
+
+spliced for s_0031
+
+<img width="960" alt="image" src="https://github.com/Grunt-prog/Image-Manipulation-Detection/assets/86661317/7237cf70-0919-4425-9439-b2d0707faa7b">
+
+**Conclusion**
+Detecting image manipulation is an essential aspect of ensuring authenticity, preventing misinformation, and protecting intellectual property rights.
+
+**References**
+
+Research Paper - "https://www.researchgate.net/publication/332561655_Image_forgery_detection_using_error_level_analysis_and_deep_learning"
+
+
+
+
