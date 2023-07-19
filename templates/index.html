@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image manipulation Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <h1>Image Manipulation Detector</h1>
+    <form id="file-upload-form" class="file-input-container" action="/" method="POST" enctype="multipart/form-data" >
+        <label for="file-upload" class="file-upload-label">Choose a file:</label>
+        <input type="file" id="file-upload" class="file-upload-input" name = 'img'/>
+        <button class="button-7" role="button">Submit</button>
+    </form>
+    <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    {% if txt %}
+            <p class = "txt">{{ txt }}</p>
+    {% endif %}
+    {% if image1 %}
+    <h2>Predicted Mask:</h2>
+    <img src="data:image/jpeg;base64,{{ image1 }}" alt="Predicted Mask">
+    {% endif %}
+</html>
