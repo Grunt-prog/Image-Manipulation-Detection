@@ -38,7 +38,7 @@ phase1/: Contains the code, Jupyter Notebook (phase1.ipynb), JSON, and .h5 files
 phase2/: Contains the code, Jupyter Notebooks (phase2_copy_move.ipynb, phase2_splice.ipynb), JSON, and .h5 files related to the mask prediction phase.
 flask_app/: Includes the code for deploying the image manipulation detection visually using Flask, HTML, and CSS.
 
-** Predicted Outputs **
+**Predicted Outputs**
 
 real for a_0001
 
